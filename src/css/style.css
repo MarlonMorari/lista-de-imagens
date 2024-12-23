@@ -1,0 +1,43 @@
+html {
+    font-family: 'Public Sans', sans-serif;
+}
+main {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.imagens {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.imagens .imagem{
+    width: 335px;
+    height: 431px;
+    position: relative;
+}
+.imagens .imagem img{
+    width: 100%;
+}
+.imagens .imagem .informacoes{
+    position: absolute;
+    color: #ffffff;
+    left: 25px;
+    bottom: 40px;
+}
+.informacoes {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+.pintura {
+    font-size: 30px;
+    font-weight: 700;
+}
+.pintor {
+    font-size: 17px;
+    font-weight: 300;
+}
